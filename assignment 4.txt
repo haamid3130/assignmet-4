@@ -1,0 +1,232 @@
+
+ASSIGNMENT4 haamid zulfiqar 
+
+Toy story: adventure 1995
+Post man, the (postino I) (1994)
+Two if by sea (1996)
+Mr. holland’s opus (1995)
+Bio -Dome (1996)
+Two bit(1995)
+Fair Game (1995)
+Big bully (1996)
+Toy story 1995
+jumanji(1995)
+Grumpier old men (1995)
+Waiting to exhale(1995)
+heat(1995)
+Guardian angel(1994)
+postman,the(postino)(1994)
+
+
+Import java.util.*;
+public class navigableMap extends hasMap<String, String>{
+Private static movieName,movieKind;
+Private static navigableMap navigablemap;
+/****
+Process=initialization
+
+****/
+Public navigableMap (String name, String type){
+movieName =name;
+Movekind =type;
+}
+Public String getthing(){
+return  movieName;
+}
+Public String getopner(){
+retrun  movie type;
+}
+/***
+Proces get the value
+***/’
+public String getvalues(){
+Return movieType;
+}
+Public String to String(){
+return”{+getopner()+”=”+getvalues()+”};
+}
+Public static navigableMap create(){
+navigable =new navigableMap(movieName, Movietype);
+return navigablemap;
+}
+/***
+Process : prints the navigable Maps
+****/
+Public static void print(){
+System.out.println(“\n’’ +navigableMap.toSting());
+}
+ }
+
+
+Import java.util.*;
+Import java.io.*;
+Public class Main{
+Public static void main(String[]args)throws Exception{
+Scanner file =new Scanner (newFile(“file.text”));
+String movie=””.name=””type=””year=””;
+Int  pollExcite=0, pollFile=0,pollSimilar=0,poll offence=0 , total=15;
+Int poll scary=0.pollAction=0,pollfight=0,pollcomedy=0,count=0;
+
+Int for 1994=0,for 1995=0 for 1996=0;
+
+double meanExite=0 ,mean file=0,meanSimilar=0,meanOfence =0
+double meanScary=0, meanAction=0,meanfight=0,meancomedy=0,mean=0;
+String[]parts=new String=new[2];navigableMap navigablemap=NavigableMap.creat();
+system.out.println(“Printing full map”);
+while(file.hasNextline(){
+parts=movie.split(“\t”);
+Movie=file.nextLine();
+title=parts[0];type=parts[1];
+navigablemap=new navigable(name.type);
+navigablemap.put(name,type);navigablemap.print();
+year=movie.substring(movie.indexof((“)+,movie.indexof(“)”));
+/*1*/ 
+if (type.equalsIgnoreCase(“exciter”)){
+countExcite++;
+System.out.println(“There are”+countExicite+“Exciter”);
+meanexcite=(double)meanecite/total;
+if(year.equal(“1994”)){
+For1994++;
+System.out.println(for1994+ “movies for1994”);
+}
+if(year.equals(“1995”)){
+for1995++;
+System.out.println(for1995+ “movies1995”);
+}
+if(year.equals(“1996”)){
+For1996++;
+/***
+2
+***/
+if(type.equalsIgnoreCase(“files”)){
+Pollfile++;
+System.out.println(“There are “+pollfile+”files”);
+meanfile=(double)pollfile/poll;
+System.out.println(“mean files: “+meanfiles);
+if(year.equal(“1994”)){
+For1994++;
+System.out.println(for1994+ “movies for 1994”);
+}
+If (year.equal(“1996”)){
+For1996++;
+System.out.println(for1996+ “1996”);
+}
+If (year.equal(“1994”)){
+}
+/****
+3
+***/
+if(type.equalsIgnoreCase(“Similar+”)){
+pollSimilar++;
+System.out.println(“There are “+pollSimilar+”files”);
+meanfile=(double)pollSimilar/poll;
+System.out.println(“meanSimilar : “+meanSimlar);
+if(year.equal(“1994”)){
+For1994++;
+System.out.println(for1994+ “movies for 1994”);
+}
+If (year.equal(“1996”)){
+For1996++;
+System.out.println(for1996+ “1996”);
+}
+If (year.equal(“1994”)){
+System.outprintln(for1994+ “1994 ”);
+/***
+4
+***/
+if(type.equalsIgnoreCase(“fight”)){
+Pollfight++;
+System.out.println(“There are “+pollfight+”fight”);
+meanfight=(double)pollfight/poll;
+System.out.println(“mean fight: “+meanfight);
+if(year.equal(“1994”)){
+For1994++;
+System.out.println(for1994+ “movies for 1994”);
+}
+If (year.equal(“1996”)){
+For1996++;
+System.out.println(for1996+ “1996”);
+}
+If (year.equal(“1994”)){
+System.outprintln(for1994+ “1994 ”);
+}
+/***
+5
+***/
+if(type.equalsIgnoreCase(“scary”)){
+Pollscary++;
+System.out.println(“There are “+scary+”scary movies”);
+meanscary=(double)pollscary/poll;
+System.out.println(“mean scary movies: “+meanscary);
+if(year.equal(“1994”)){
+For1994++;
+System.out.println(for1994+ “movies for 1994”);
+}
+If (year.equal(“1996”)){
+For1996++;
+System.out.println(for1996+ “1996”);
+}
+If (year.equal(“1994”)){
+System.outprintln(for1994+ “1994 ”);
+}
+/**
+6
+***/
+if(type.equalsIgnoreCase(“actions”)){
+Poll actions++;
+System.out.println(“There are “+poll actions+”actions movies”);
+mean actions=(double)poll actons/poll;
+System.out.println(“mean actions movies: “+mean actions);
+if(year.equal(“1994”)){
+For1994++;
+System.out.println(for1994+ “movies for 1994”);
+}
+If (year.equal(“1996”)){
+For1996++;
+System.out.println(for1996+ “1996”);
+}
+If (year.equal(“1994”)){
+System.outprintln(for1994+ “1994 ”);
+}
+/***
+7
+**/
+if(type.equalsIgnoreCase(“offence”)){
+Poll offence++;
+System.out.println(“There are “+polloffence+”offence”);
+mean offence=(double)polloffence/poll;
+System.out.println(“mean offence: “+meanoffence);
+if(year.equal(“1994”)){
+For1994++;
+System.out.println(for1994+ “movies for 1994”);
+}
+If (year.equal(“1996”)){
+For1996++;
+System.out.println(for1996+ “1996”);
+}
+If (year.equal(“1995”)){
+System.outprintln(for1995+ “1995 ”);
+}
+/***
+8
+**/
+if(type.equalsIgnoreCase(“comedy”)){
+Pollcomedy++;
+System.out.println(“There are “+poll comedy+”comedy”);
+meancomedy=(double)poll comedy/poll;
+System.out.println(“mean fight: “+meancomdey);
+if(year.equal(“1994”)){
+For1994++;
+System.out.println(for1994+ “movies for 1994”);
+}
+If (year.equal(“1996”)){
+For1996++;
+System.out.println(for1996+ “1996”);
+}
+If (year.equal(“1994”)){
+System.outprintln(for1994+ “1994 ”);
+}	
+
+
+
+
